@@ -1,0 +1,14 @@
+<resources>
+    <declare-styleable name="CircleView" >
+        <!-- 每一帧旋转的角度值 -->
+        <attr name="rotate_angle_step" format="integer" />
+        <!-- 缩放动画的最大缩放比例，scale_max和scale_step只需要改变其中一个即可调整缩放速度 -->
+        <attr name="scale_max" format="float" />
+        <!-- 缩放动画中半径改变的步长 -->
+        <attr name="scale_radius_change_step" format="float" />
+        <!-- 半径变化的阈值，超过这个阈值缩放动画重新开始 -->
+        <attr name="scale_radius_threshold" format="float" />
+        <!-- 背景颜色 -->
+        <attr name="back_ground_color" format="string" />
+    </declare-styleable>
+</resources>
